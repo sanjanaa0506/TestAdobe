@@ -2,6 +2,14 @@
 <head>
 
 <script>
+  !function(e,a,n,t){var i=e.head;if(i){
+  if (a) return;
+  var o=e.createElement("style");
+  o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+  (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
+</script>
+    
+<script>
     window.myData = window.myData || {};
 
     window.myData.page = {
@@ -19,13 +27,7 @@
 
 <title>Sanjana Test Page</title>
 
-<script>
-  !function(e,a,n,t){var i=e.head;if(i){
-  if (a) return;
-  var o=e.createElement("style");
-  o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
-  (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
-</script>
+
 
 <script src="https://assets.adobedtm.com/e72b4113c11a/c3643f7dc7d4/launch-458a84774e13-development.min.js" async></script>
 <script src="https://assets.adobedtm.com/e72b4113c11a/c3643f7dc7d4/launch-f278b5ce9dee-development.min.js" async></script>
